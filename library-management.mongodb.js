@@ -17,10 +17,10 @@ db.books.insertMany([
 ]);
 
 db.books.insertMany([
-  { title: "The Alchemist", author: "Paulo Coelho", category: "Fiction", publishedYear: 2015, availableCopies: 40 },
+  { title: "Ikigai", author: "Héctor García and Francesc Miralles", category: "Self Help", publishedYear: 2016, availableCopies: 40 },
   { title: "Deep Work", author: "Cal Newport", category: "Productivity", publishedYear: 2016, availableCopies: 25 },
-  { title: "Java Cras", author: "Herbert Schildt", category: "Programming", publishedYear: 2014, availableCopies: 18 },
-  { title: "Think Like a Monk", author: "Jay Shetty", category: "Self Help", publishedYear: 2020, availableCopies: 52 },
+  { title: "Java Crash course", author: "Herbert Schildt", category: "Programming", publishedYear: 2014, availableCopies: 18 },
+  { title: "Rich Dad Poor Dad", author: "Robert Kiyosaki", category: "Self Help", publishedYear: 1997, availableCopies: 52 },
   { title: "Python Crash Course", author: "Eric Matthes", category: "Programming", publishedYear: 2019, availableCopies: 18 }
 ]);
 db.books.find();
